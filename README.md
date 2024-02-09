@@ -19,6 +19,12 @@ The problem is to determine the threshold level, which is attempted to be achiev
 As test, a low-quality video is used in circumstances at night with different lighting, shadows and streetlights and nearby trees with their shadows, made by a pedestrian approaching and leaving the lane. The results can be compared with those obtained in the project:
 https://github.com/ablanco1950/Directs_Object_Following_Lane , that uses the same video.
 
+It can also be tested with the road video that is usually used in lane detection tests. In this case, two templates are used, one for the normal lane and the other for the worn lane. Since the template function allows you to detect if a lane has been detected or if it has not been detected, in this case you can try another template.
+
+It is tested by running:
+
+VIDEOLaneRoadDetection_Template.py
+
 
 References:
 

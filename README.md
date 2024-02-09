@@ -1,5 +1,5 @@
 # LaneDetection_Template
-Lane detection using cv.matchTemplate function
+Lane detection using cv.matchTemplate function, a simpler system than the one usually used to process the image and detect contours. Furthermore, it does not require establishing a region of interest.
 
 Requirements:
 

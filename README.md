@@ -1,6 +1,5 @@
 # LaneDetection_Template
-Lane detection using cv.matchTemplate function, a simpler system than the one usually used to process the image and detect contours. Furthermore, it does not require establishing a region of interest.
-
+Lane detection using cv.matchTemplate function, a simpler system than the one usually used:  establish a region of interest, process the image and detect linear contours. 
 Requirements:
 
 have installed: opencv (cv), numpy and time
@@ -9,7 +8,7 @@ Execute:
 
 VIDEOLaneDetection_Template.py
 
-The detected lane lines appear on the screen with a box over each video image, the greater the thickness of the box, the greater the probability of success.The x and y target appear on the console at all times and a final balance of successes and failures.
+The detected lane lines appear on the screen with a box over each video image, the greater the thickness of the box, the greater the probability of success.The X and Y target appear on the console at all times and a final balance of successes and failures.
 You also get a video demonstration.mp4 in which you can see the results more precisely.
 
 The program is based on the example that appears in the OpenCV documentation with template, in the case of detecting several template objectives in the image. (https://docs.opencv.org/3.4/d4/dc6/tutorial_py_template_matching.html)
